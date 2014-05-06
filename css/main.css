@@ -1,0 +1,402 @@
+/* 
+
+	1. CORE
+	2. NAVIGATION
+	3. SLIDER
+	4. SERVICES
+	5. ABOUT
+	6. TESTIMONIAL
+	7. WORKS
+	8. HIGHLIGHTS
+	9. CLIENTS
+	10. MISC.
+		a. form
+		b. button
+	
+*/
+
+
+
+/* CORE */
+
+body {
+	color:#333333;
+	font-family:'Dosis';
+	font-size:16px;
+	font-weight:400;
+	letter-spacing:0.5px;
+	overflow-x:hidden;
+	-webkit-font-smoothing: antialiased;
+}
+
+section {
+	padding:60px 0;
+}
+
+h2 {
+	color:#222222;
+	font-family:'Fredoka One';
+	font-size:39px;
+	margin-top:0;
+	letter-spacing:0;
+}
+
+h2:after {
+	content:".";
+	color:#ffcd00;
+	font-size:45px;
+	margin-left:3px;
+}
+
+
+h3 {
+	color:#222222;
+	font-family:'Dosis';
+	font-size:30px;
+}
+
+h4 {
+	color:#222222;
+	font-family:'Fredoka One';
+	font-size:20px;
+	font-weight:400;
+}
+
+.uppercase {
+	text-transform:uppercase;
+}
+
+
+
+/* NAVIGATION */
+
+.navbar {
+	-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+
+.navbar-custom {
+	color:#333;
+	background:#ffffff;
+	font-family:'Montserrat';
+	font-weight:700;
+	font-size:14px;
+	letter-spacing:1px;
+	border-radius:0;
+	height:100px;
+	z-index:50;
+}
+
+.navbar-custom a {
+	color:#222222;
+}
+
+.navbar-custom .navbar-nav > li > a:hover {
+	color:#ffcd00;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.navbar-custom .nav {
+	padding-top:25px;
+}
+
+.navbar-custom .navbar-toggle {
+	background:#ffffff;
+	margin-top:30px;
+	position:relative;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+	background:#ffcd00;
+}
+
+
+.top-nav-collapse {
+	color:#222222;
+	background:#f6f6f6;
+	z-index:50;
+	padding:0;
+}
+
+.navbar-custom .navbar-brand {
+	font-family:misoregular;
+	font-size:23px;
+	font-weight:400;
+}
+
+
+
+/* SLIDER */
+
+#slider {
+	margin:50px 0 30px 0;
+}
+
+
+/* SERVICES */
+.service {
+	  float:none;
+	  display:inline-table;
+  }
+
+.service img {
+	float:left;
+}
+
+@media (max-width: 480px) {
+    .service img {
+	float:none;
+	text-align:center;
+  }
+}
+
+
+/* ABOUT */
+
+#about {
+	background:#f6f6f6;
+}
+
+
+#team {
+	margin-top:50px;
+}
+
+
+/* TESTIMONIAL */
+
+#testimonial {
+	width:100%;
+	overflow: hidden;
+	z-index:0;
+	height:auto;
+	color:#ffffff;
+	background-color:#222222;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+}
+
+
+#testimonial p {
+	font-size:31px;
+	font-family:'Dosis';
+	letter-spacing:-1px;
+	line-height:35px;
+	padding-top:20px;
+}
+
+#testimonial h4 {
+	color:#ffcd00;
+	font-family:'Fredoka One';
+	font-size:27px;
+	margin:35px 0 0 20px;
+	letter-spacing:1px;
+}
+
+
+
+/* WORKS */
+
+#works ul a {
+	color:#999999;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+#works ul a:hover {
+	color:#222222;
+	text-decoration:none;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	
+}
+
+
+/* HIGHLIGHT */
+
+#highlight {
+	color:#222222;
+	background:#ffcd00;
+	width:100%;
+	padding:45px 0;
+}
+
+#highlight .lead {
+	margin:0;
+}
+
+#highlight .button {
+	margin:0 0 0 20px;
+}
+
+
+/* CLIENTS */
+
+#clients img {
+	margin:0 15px;
+}
+
+
+/* CONTACT */
+
+#contact {
+	background:#f6f6f6;
+}
+
+#map{
+    width:100%;
+    height:500px;
+	margin:30px 0;
+}
+
+#contact h4 {
+	margin-top:30px;
+}
+
+.icon {
+	vertical-align: middle;
+	float: left;
+	width: 50px;
+}
+
+.social a {
+	color: rgba(34,34,34, 1);
+	padding:0;
+}
+
+.social a:hover {
+	color:#ffcd00;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+
+/* MISC */
+
+/* form */
+
+input[type="text"],
+input[type="email"] {
+	color:#333333;
+	font-size:16px;
+	font-weight:300;
+	background:rgba(252,184,19, 0.7);
+	width:100%;
+	min-height:50px;
+	padding:0 0 0 10px;
+	text-transform:uppercase;
+	border:0;
+	margin-bottom:15px;
+	outline:none;
+}
+
+textarea {
+	color:#333333;
+	font-size:16px;
+	font-weight:300;
+	background:rgba(252,184,19, 0.7);
+	width:100%;
+	padding:10px 0 0 10px;
+	text-transform:uppercase;
+	border:0;
+	margin-bottom:15px;
+	outline:none;
+}
+
+label {
+	color: #222222;
+	font-size: 17px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-family:dosis;
+
+} 
+
+
+
+/* Buttons */
+
+.button {
+	color: inherit;
+	background: none;
+	font-family:inherit;
+	font-size: 11px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	border: none;
+	margin: 15px 0;
+	padding: 5px 15px;
+	display: inline-block;
+	position: relative;
+	outline: none;
+	cursor: pointer;
+	-webkit-border-radius:4px;
+	   -moz-border-radius:4px;
+	   		border-radius:4px;
+		-webkit-transition: all 0.3s;
+		   -moz-transition: all 0.3s;
+	            transition: all 0.3s;
+}
+
+.button:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	        transition: all 0.3s;
+}
+
+.button-big {
+	padding:10px 20px;
+	font-size:15px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	   -moz-border-radius:4px;
+}
+
+.button-border-light {
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+
+.button-border-light:hover,
+.button-border-light:active {
+	color: #222222;
+	background: #ffffff;
+	text-decoration:none;
+}
+
+.button-border-dark {
+	border: 2px solid #ffcd00;
+	color: #ffcd00;
+}
+
+.button-border-dark:hover,
+.button-border-dark:active {
+	color: #222222;
+	background: #ffcd00;
+	text-decoration:none;
+}
+
+.button-black {
+	border: 1px solid #222222;
+	color: #222222;
+}
+
+.button-black:hover,
+.button-black:active {
+	color: #ffcd00;
+	background: #222222;
+	text-decoration:none;
+}
+
